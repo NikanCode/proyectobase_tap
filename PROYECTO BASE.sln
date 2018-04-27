@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DATOS", "DATOS\DATOS.csproj
 EndProject
 Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "VISTA_WEB", "VISTA_WEB\", "{0FBA3836-06CA-4350-A4D3-78B1497785F1}"
 	ProjectSection(WebsiteProperties) = preProject
-		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
 		ProjectReferences = "{a365f7d7-8412-4a58-9e08-b6826505ae73}|DATOS.dll;"
 		Debug.AspNetCompiler.VirtualPath = "/localhost_49512"
 		Debug.AspNetCompiler.PhysicalPath = "VISTA_WEB\"

@@ -22,6 +22,7 @@ namespace VISTA_ESCRITORIO
         {
 
             dataGridView1.DataSource = new PersonaDAO().getAll();
+            dataGridView2.DataSource = new PersonaDAO().getAll();
             //personaDAOBindingSource1.DataMember = "";
         }
     }

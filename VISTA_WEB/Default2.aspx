@@ -18,6 +18,14 @@
                 <asp:BoundField DataField="nombre" HeaderText="nombre" SortExpression="nombre" />
             </Columns>
         </asp:GridView>
+        <asp:GridView ID="GridView2" runat="server" AutoGenerateColumns="False" DataSourceID="ObjectDataSource2">
+            <Columns>
+                <asp:BoundField DataField="id" HeaderText="id" SortExpression="id" />
+                <asp:BoundField DataField="nombre" HeaderText="nombre" SortExpression="nombre" />
+                <asp:BoundField DataField="fecha" HeaderText="fecha" SortExpression="fecha" />
+            </Columns>
+        </asp:GridView>
+        <asp:ObjectDataSource ID="ObjectDataSource2" runat="server" SelectMethod="getAll" TypeName="DATOS.daos.PersonaDAO"></asp:ObjectDataSource>
         <asp:ObjectDataSource ID="ObjectDataSource1" runat="server" DataObjectTypeName="DATOS.modelo.Persona" DeleteMethod="delete" InsertMethod="insert" SelectMethod="getAll" TypeName="DATOS.daos.PersonaDAO" UpdateMethod="update"></asp:ObjectDataSource>
     </form>
 </body>
